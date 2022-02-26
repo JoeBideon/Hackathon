@@ -8,6 +8,7 @@ body {
     --secondary-color: #8F3900;
     --tertiary-color: #281e32;
     background-color: #3C1518;
+    color: whitesmoke;
     /* fonts */
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
@@ -17,10 +18,10 @@ img {
     max-width: 500px;
 }
 p {
-    font-size: 18px;
+    font-size: 24px;
 }
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 25px;
 }
 a,
@@ -63,9 +64,9 @@ center{
     inline-size: 1000px;
 }
 .header__subtitle {
-    width: 65%;
     margin-top: 25px;
     font-weight: 500;
+    margin-right:30%;
 }
 
 /** INFO SECTIONS */
