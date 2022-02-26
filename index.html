@@ -11,74 +11,34 @@
         />
     </head>
     <body>
-        <!--* NAVBAR -->
-        <nav class="navbar">
-            <ul class="navbar__list">
-                <!-- this one is on the left -->
-                <li class="navbar__item--left navbar__item">
-                    The Proglers
-                </li>
-                <li class="navbar__item">Home</li>
-                <li class="navbar__item">About</li>
-                <li class="navbar__item">Contact</li>
-            </ul>
-        </nav>
 
         <!--* HEADER -->
         <header class="header">
-            <h1 class="header__title">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </h1>
-            <h2 class="header__subtitle">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatem dolorum odio ea rem sint molestiae!
-            </h2>
-            <button
-                onclick="window.location.href='https://google.com'"
-                class="header__button"
-            >
-                Contact
-            </button>
-        </header>
-
-        <!--* SECTION 1 -->
-        <section class="section1">
-            <img src="house.jpeg" alt="error" class="section1__img" />
-            <div class="section1__text">
-                <h1 class="section1__title">Lorem ipsum dolor sit.</h1>
-                <p class="section1__para">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Perspiciatis soluta labore ut ex reprehenderit laborum
-                    obcaecati blanditiis recusandae animi eveniet nemo sit
-                    suscipit harum numquam placeat deleniti architecto,
-                    voluptate eos earum quasi voluptatibus dolores tempore!
-                    Fugit similique odio enim aspernatur earum mollitia itaque
-                    maxime, pariatur magni natus animi at consectetur!
-                </p>
+            <div class = "header__text"></div>
+                <h1 class="header__title">
+                    Changes in Climate Change by State
+                </h1>
+                <h2 class="header__subtitle">
+                    Find out how CO2 levels are increasing in your state and contact your local lawmaker.
+                </h2>
             </div>
-        </section>
+        </header>
 
         <!--* SECTION 2 -->
         <section class="section2">
             <div class="section2__text">
-                <h1 class="section2__title">Lorem ipsum dolor sit.</h1>
+                <h1 class="section2__title">Fight against pollution</h1>
                 <p class="section2__para">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Accusantium nihil natus facilis id repudiandae esse
-                    necessitatibus impedit velit voluptate iste mollitia at
-                    consequatur ex asperiores eum ducimus cumque odit sit,
-                    recusandae sequi molestiae ea? Porro corrupti autem aliquid
-                    quasi unde, velit perspiciatis mollitia quam similique.
-                    Harum ipsa est iure suscipit.
+                    This tool allows you to see which states have the highest increase in CO2 levels.
+                    Hover over each dot to see the names of a senator and their Twitter handle.
                 </p>
             </div>
-            <img src="house.jpeg" alt="error" class="section2__img" />
+            <img src="pollution2.jpg" alt="error" class="section2__img" />
         </section>
 
-        <section>
-            
+        <center>
             <div class='tableauPlaceholder' id='viz1645902496138' style='position: relative'>
-                <object class='tableauViz'  style='display:none;'>
+                <object class='tableauViz'>
                     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
                 <param name='embed_code_version' value='3' /> 
                 <param name='site_root' value='' /><param name='name' value='CarbonData&#47;Sheet1' />
@@ -93,62 +53,26 @@
                 <script type='text/javascript'>
                 var divElement = document.getElementById('viz1645902496138');
                  var vizElement = divElement.getElementsByTagName('object')[0];
-                 vizElement.style.width='100%';
-                 vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                 vizElement.style.width='1000px';
+                 vizElement.style.height='500px';
                 var scriptElement = document.createElement('script');
                 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
                 vizElement.parentNode.insertBefore(scriptElement, vizElement);
                 </script>
-        </section>
-        <!--* CONTACT FORM -->
-        <section class="form__container">
-            <form class="form">
-                <h1 class="form__title">Contact Us</h1>
-                <label for="name" class="form__label">Name</label>
-                <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    class="form__input"
-                    placeholder="Full Name"
-                />
-
-                <label for="email" class="form__label">Name</label>
-                <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    class="form__input"
-                    placeholder="Email"
-                />
-
-                <label for="description" class="form__label">Name</label>
-                <textarea
-                    name="description"
-                    id="description"
-                    class="form__description"
-                    placeholder="Enter Brief Description Here"
-                    rows="8"
-                    cols="50"
-                ></textarea>
-
-                <button class="form__button" type="submit">Submit</button>
-            </form>
-        </section>
+        </center>
 
         <!--* FOOTER -->
         <footer class="footer">
             <div class="footer__info">
                 <p class="footer__copyright">
-                    Site built by </br> The Proglers
+                    Site built by The Proglers
+                </br>
+                    Data Visualization created with Tableau and pandas
+                </br>
+                    Images from Aviopix
                 </p>
             </div>
-            <ul class="footer__navigation">
-                <li class="footer__item--title">Navigation</li>
-                <li class="footer__item">Home</li>
-                <li class="footer__item">About</li>
-                <li class="footer__item">Contact</li>
-            </ul>
+
         </footer>
     </body>
 </html>
